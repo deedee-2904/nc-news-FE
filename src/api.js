@@ -14,9 +14,15 @@ const getArticles = (article_id) => {
 			return data.articles;
 		})
 		.catch((err) => {
-			throw err
+			throw err;
 		});
 };
 
+const getComments = (article_id) => {
+	let endpoint = `/articles/${article_id}/comments`;
+	return api.get(endpoint).then(({ data }) => {
+		return data.comments;
+	});
+};
 
-export { getArticles };
+export { getArticles, getComments };
