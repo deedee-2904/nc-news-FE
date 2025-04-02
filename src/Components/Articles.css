@@ -11,7 +11,7 @@
     width: 100%;
 }
 
-.article-card{
+.article-card {
     display:flex;
     margin: 1rem;
     justify-content: center;
@@ -19,4 +19,32 @@
 }
 .article-card:hover{
     outline:4px solid blueviolet;
+}
+.card-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    min-height: calc(100vh-60px);
+    width: 20rem;
+}
+
+.button-container{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#articles-button {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
