@@ -25,4 +25,11 @@ const getComments = (article_id) => {
 	});
 };
 
-export { getArticles, getComments };
+const patchArticleVotes = (article_id, inc_votes) => {
+	let endpoint = `/articles/${article_id}`;
+	return api.patch(endpoint, { inc_votes }).then(({ data: { article } }) => {
+		return article;
+	});
+};
+
+export { getArticles, getComments, patchArticleVotes };
