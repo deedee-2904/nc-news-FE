@@ -21,7 +21,7 @@ export default function Votes({ article_id, votes }) {
 
 	return (
 		<>
-			{error ? <Error message={error.message} />:<p></p>}
+			{error ? <Error message={error.message} />:<></>}
 			<Button onClick={() => handleVote(1)}>👍</Button> {likes}{" "}
 			<Button onClick={() => handleVote(-1)}>👎</Button>
 		</>
