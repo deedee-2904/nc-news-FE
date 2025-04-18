@@ -1,0 +1,11 @@
+h2{
+    text-align: center;
+}
+
+.spinning-world{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 75vw;
+    height: 75vh;
+}

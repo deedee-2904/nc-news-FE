@@ -21,7 +21,6 @@ export default function SingleArticleCard({ article }) {
 				<Card.Text id="article-votes">
 					<Votes votes={article.votes} article_id={article.article_id}/>
 				</Card.Text>
-				<Card.Text>Comment Count: {article.comment_count}</Card.Text>
 			</Card.Body>
 		</Card>
 	);
