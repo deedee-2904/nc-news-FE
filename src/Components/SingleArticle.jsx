@@ -36,14 +36,8 @@ export default function SingleArticle() {
 				<SingleArticleCard article={article} />
 			</Container>
 			<br />
-			<h2>Comments For: {article.title}</h2>
-			<br />
-			{article.comment_count !==1 ? (
-				<p>{`There are ${article.comment_count} comments for this article`}</p>
-			) : (
-				<p>{`There is ${article.comment_count} comment for this article`}</p>
-			)}
 			<Comments />
+			<br />
 		</div>
 	);
 }
