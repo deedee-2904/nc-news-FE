@@ -7,7 +7,9 @@ export default function Home() {
 	return (
 		<>
 			<h2>Welcome to NC News</h2>
-			<Lottie className="spinning-world" animationData={spinningWorld} loop={true} />
+			<div className="animation-container">
+				<Lottie className="spinning-world" animationData={spinningWorld} loop={true} />
+			</div>
 		</>
 	);
 }
