@@ -60,7 +60,7 @@ npm run dev
 ```
 A link will then be provided to see local changes.
 
-## Future Features to Come
+## Features to Come
 
  - Deleting your own comments
  - View a separate page for each topic
