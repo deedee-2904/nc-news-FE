@@ -65,7 +65,6 @@ A link will then be provided to see local changes.
  - Deleting your own comments
  - View a separate page for each topic
  - Sort aricles by: date, comment count, votes in ascending or descending order
- - Error handling for: non-existent path, article, topic
 
 ## FAQs
 
