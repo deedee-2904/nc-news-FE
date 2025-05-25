@@ -27,10 +27,10 @@ export default function Articles() {
 
 	return (
 		<Container className="text-center">
-			<Row xs={1} md={2} className="justify-content-center">
+			<Row xs={1} md={2} lg={3} className="justify-content-center">
 				{articles.map((article) => (
 					<Col className="d-flex justify-content-center" key={article.article_id}>
-						<ArticleCard article={article} />
+						<ArticleCard article={article}/>
 					</Col>
 				))}
 			</Row>
