@@ -17,7 +17,7 @@
     margin: 1rem;
     justify-self: space-between;
     width:300px !important; /* only try to use it sparringly*/
-    height: 400px !important;
+    height: 367px !important; /* only try to use it sparringly*/
     flex-wrap: wrap;
 }
 
@@ -43,6 +43,7 @@
 }
 
 .card-title {
+    /* text-align: center; */
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
@@ -63,4 +64,9 @@
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
 }

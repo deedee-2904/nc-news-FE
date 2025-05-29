@@ -26,7 +26,7 @@ export default function Articles() {
 	if (isLoading) return <Loading />;
 
 	return (
-		<Container className="text-center">
+		<Container>
 			<Row xs={1} md={2} lg={3} className="justify-content-center">
 				{articles.map((article) => (
 					<Col className="d-flex justify-content-center" key={article.article_id}>

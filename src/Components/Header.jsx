@@ -1,8 +1,13 @@
-import "./Header.css"
+import "./Header.css";
 
-export default function Header(){
-    return(<header>
-        <h1>Been There, News That!</h1>
-        <p>Never be in the unknown again!</p>
-    </header>)
+export default function Header() {
+	return (
+		<header>
+			<img className="site-logo" src="./src/assets/logo.png" alt="Been There, News That! logo" />
+			<div className="title-and-slogan">
+				<h1>Been There, News That!</h1>
+				<p>Never be in the unknown again!</p>
+			</div>
+		</header>
+	);
 }
