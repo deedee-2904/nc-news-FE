@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import { getArticles } from "../api";
 import Loading from "./Loading";
 import ArticleCard from "./ArticleCard";
-import "./Articles.css";
 import { Container, Row, Col } from "react-bootstrap";
+import "./Articles.css";
+
 
 export default function Articles() {
 	const [articles, setArticles] = useState([]);

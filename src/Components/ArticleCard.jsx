@@ -11,7 +11,7 @@ export default function ArticleCard({ article }) {
 		<Link
 			to={`/articles/${article.article_id}`}
 			className="card-link"
-			aria-label={`${article.title}`}
+			aria-label={`Click to view ${article.title}`}
 		>
 			<Card className="article-card">
 				<Card.Img
@@ -21,17 +21,17 @@ export default function ArticleCard({ article }) {
 				/>
 				<Card.Body>
 					<Card.Title className="card-title">{article.title}</Card.Title>
-					<Card.Text>
+					<Card.Text aria-label={`${article.topic}`}>
 						<List size={25} /> Topic: {article.topic}
 					</Card.Text>
-					<Card.Text>
+					<Card.Text aria-label={`Written by user ${article.author}`}>
 						<PencilFill size={25} /> Written by: {article.author}
 					</Card.Text>
 					<div className="container">
-						<Card.Text>
+						<Card.Text aria-label={`There are ${article.votes} votes`}>
 							<HandThumbsUpFill size={25} /> {article.votes} 
 						</Card.Text>
-						<Card.Text>
+						<Card.Text aria-label={`There are ${article.comment} comments`}>
 							<ChatLeftTextFill size={25} /> {article.comment_count}
 						</Card.Text>
 					</div>
