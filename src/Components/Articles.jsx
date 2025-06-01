@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import { getArticles } from "../api";
 import Loading from "./Loading";
 import ArticleCard from "./ArticleCard";
-import "./Articles.css";
 import { Container, Row, Col } from "react-bootstrap";
+import "./Articles.css";
+
 
 export default function Articles() {
 	const [articles, setArticles] = useState([]);
@@ -26,11 +27,11 @@ export default function Articles() {
 	if (isLoading) return <Loading />;
 
 	return (
-		<Container className="text-center">
-			<Row xs={1} md={2} className="justify-content-center">
+		<Container>
+			<Row xs={1} md={2} lg={3} className="justify-content-center">
 				{articles.map((article) => (
 					<Col className="d-flex justify-content-center" key={article.article_id}>
-						<ArticleCard article={article} />
+						<ArticleCard article={article}/>
 					</Col>
 				))}
 			</Row>
