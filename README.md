@@ -2,7 +2,7 @@
 
 Welcome to my NC News Front End Project!   
 
-Here is a link to the hosted site: [Been There, News That!](https://been-there-news-that.netlify.app/)
+Here is a link to the hosted site: [Been There? News That!](https://been-there-news-that.netlify.app/)
 
 Here is a link to the [hosted API](https://nc-news-0nn8.onrender.com/) and its respective [repo](https://github.com/deedee-2904/nc-news-BE.git)!  
 
