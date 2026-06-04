@@ -9,7 +9,9 @@ h6{
 }
 
 #note{
-    color: red;
+    color: #ffffff;
+    font-weight: bolder;
+    font-style: italic
 }
 
 .animation-container{
