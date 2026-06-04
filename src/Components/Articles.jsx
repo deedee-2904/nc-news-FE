@@ -18,6 +18,7 @@ export default function Articles() {
 			})
 			.catch((err) => {
 				console.log(err);
+				alert(err.message)
 			})
 			.finally(() => {
 				setIsLoading(false);
