@@ -5,8 +5,8 @@ export default function Header() {
 		<header>
 			<img className="site-logo" src="/logo.png" alt="Been There, News That! logo" />
 			<div className="title-and-slogan">
-				<h1>Been There, News That!</h1>
-				<p>Never be in the unknown again!</p>
+				<h1>Been There? News That!</h1>
+				<p>Report any news no matter how big or small!</p>
 			</div>
 		</header>
 	);
